@@ -6,9 +6,11 @@
       </h1>
       <p class="header__subtitle">Lorem ipsum dolor sit amet, consectetur<br/> adipisicing elit, sed do eiusmod tempor.
       </p>
-      <button type="button" class="btn btn-primary header__button">CTA BUTTON</button>
+       <router-link
+      to="/">
+        <button type="button" class="btn btn-primary header__button">HOME BUTTON</button>
+      </router-link>
     </div>
-
   </div>
 </template>
 
