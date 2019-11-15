@@ -10,11 +10,6 @@ const state = {
 const getters = {
   getMovies(state) {
     return state.movies;
-  },
-  getMovieList(state) {
-    return key => state.movies.filter(element => {
-      return element.key === key;
-    })
   }
 }
 
